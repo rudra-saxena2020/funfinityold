@@ -1,0 +1,3 @@
+﻿select * from es_cloud_setting limit 1
+Unable to connect to any of the specified MySQL hosts.
+select * from es_billing_seting
