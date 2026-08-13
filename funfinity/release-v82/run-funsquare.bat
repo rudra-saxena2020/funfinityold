@@ -32,19 +32,41 @@ if not exist "%APP%" (
     goto :failed
 )
 
-rem FunSquare UDP targets .NET Framework 4.8. Show a warning if it is absent.
+rem FunSquare UDP targets .NET Framework 4.8. Check both Windows registry views.
+rem The Release value is the third field: Release REG_DWORD 0x80xxxx.
 set "DOTNET_RELEASE="
-for /f "tokens=2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" /v Release 2^>nul') do if /i "%%A"=="Release" set "DOTNET_RELEASE=%%B"
+set "DOTNET_VIEW="
+set "DOTNET_OK=0"
+for %%V in (64 32) do (
+    for /f "tokens=1,2,*" %%A in ('reg query "HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full" /v Release /reg:%%V 2^>nul ^| findstr /i "Release"') do (
+        if /i "%%A"=="Release" (
+            set "DOTNET_RELEASE=%%C"
+            set "DOTNET_VIEW=%%V-bit registry"
+        )
+    )
+)
 
 if not defined DOTNET_RELEASE (
     echo [WARNING] .NET Framework 4.8 was not detected.
     echo Install .NET Framework 4.8, then run this file again.
+    echo Download: https://dotnet.microsoft.com/download/dotnet-framework/net48
     echo.
     >>"%LOG%" echo [WARNING] .NET Framework 4.8 was not detected.
 ) else (
-    echo [OK] .NET Framework detected. Registry release: %DOTNET_RELEASE%
-    >>"%LOG%" echo .NET Framework registry release: %DOTNET_RELEASE%
+    set /a DOTNET_RELEASE_NUMBER=!DOTNET_RELEASE! >nul 2>&1
+    if !DOTNET_RELEASE_NUMBER! GEQ 528040 (
+        echo [OK] .NET Framework 4.8 detected in !DOTNET_VIEW!. Release: !DOTNET_RELEASE!
+        >>"%LOG%" echo .NET Framework 4.8 detected in !DOTNET_VIEW!. Release: !DOTNET_RELEASE!
+        set "DOTNET_OK=1"
+    ) else (
+        echo [ERROR] .NET Framework 4.8 is required.
+        echo An older .NET Framework release was found: !DOTNET_RELEASE!
+        echo Download: https://dotnet.microsoft.com/download/dotnet-framework/net48
+        echo.
+        >>"%LOG%" echo [ERROR] Older .NET Framework release found: !DOTNET_RELEASE!
+    )
 )
+if not "!DOTNET_OK!"=="1" goto :missing_dotnet
 
 rem The app uses MySQL. Start a standard Windows service only if it already exists.
 rem No database is installed or created by this launcher.
@@ -101,6 +123,14 @@ exit /b 0
 :failed
 echo.
 echo The launcher could not start FunSquare UDP.
+echo Diagnostic log:
+echo   %LOG%
+goto :done
+
+:missing_dotnet
+echo.
+echo FunSquare UDP was not started because .NET Framework 4.8 is required.
+echo Install it, restart Windows if requested, and run this BAT file again.
 echo Diagnostic log:
 echo   %LOG%
 
