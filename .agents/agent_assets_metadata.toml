@@ -1,0 +1,9 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "3rB8nPWiMCyqX3rV1KHwx"
+uri = "file://funfinity/release-v82/FunSquare-UDP.exe"
+type = "unspecified"
+title = "Original FunSquare UDP executable"
+description = "Restored original Windows .NET executable from the release-v82 folder. SHA-256: 911230a0bbab5b61d2587c39e8632bd469a760544b687dadb5eec1c93f6bc1fc"
