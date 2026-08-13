@@ -1,0 +1,1 @@
+SELECT id, guid AS `Request GUID`, locker_device_name AS `Locker Name`, locker_device_locker_number AS `Locker Number`, customer_guid AS `Customer Guid`, created_at AS `Date & Time` FROM es_locker_activity where customer_guid='ddf6fcdd-eab6-11ef-a0ce-0a002700000f' and customer_id='15'es_bansiwala

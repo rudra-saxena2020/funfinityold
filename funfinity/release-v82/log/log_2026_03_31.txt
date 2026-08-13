@@ -1,0 +1,38 @@
+﻿select * from es_cloud_setting limit 1
+select * from es_billing_seting
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:144:45:201:112:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:2'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:7'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:1:187'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select * from es_cloud_setting limit 1
+select * from es_billing_seting
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:144:45:201:112:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:2'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:7'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:1:187'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select id, permission_game_report, permission_payment_report, permission_return_card from es_user where user_name='user1' and password='1102'
+select * from es_billing_seting
+__LOAD_billing_seting : DONE
+__LOAD_billing_seting vip : 0
+SELECT ModuleID FROM UserModules WHERE UserID = 3
+select * from es_daily_opening_balance where dt_ddmmyyyy='31/03/2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='31-03-2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='31-03-2026'
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--Port opened at 3/31/2026 4:44:09 PM-->
+

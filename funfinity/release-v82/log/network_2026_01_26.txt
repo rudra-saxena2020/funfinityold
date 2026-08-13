@@ -1,0 +1,26 @@
+﻿FunSquareNetworkDiscovery App is already set to run at startup.
+IsTaskScheduled available
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 192.168.0.127
+
+Scanning subnet: 192.168.0.1 - 192.168.0.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------
+FunSquareNetworkDiscovery App is already set to run at startup.
+IsTaskScheduled available
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 192.168.0.127
+
+Scanning subnet: 192.168.0.1 - 192.168.0.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------

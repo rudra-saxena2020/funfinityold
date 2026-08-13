@@ -1,0 +1,4 @@
+﻿Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.

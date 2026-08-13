@@ -1,0 +1,93 @@
+﻿Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 4852476 bytes (4739 KiB)
+
+Creating archive: D:\release-v82\backup\1782304743.7z
+
+Add new data to archive: 1 file, 4852476 bytes (4739 KiB)
+
+
+Files read from disk: 1
+Archive size: 440018 bytes (430 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1782304743.7z
+Backup successful!
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 4852476 bytes (4739 KiB)
+
+Creating archive: D:\release-v82\backup\1782305558.7z
+
+Add new data to archive: 1 file, 4852476 bytes (4739 KiB)
+
+
+Files read from disk: 1
+Archive size: 440002 bytes (430 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1782305558.7z
+Backup successful!
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 4856485 bytes (4743 KiB)
+
+Creating archive: D:\release-v82\backup\1782309682.7z
+
+Add new data to archive: 1 file, 4856485 bytes (4743 KiB)
+
+
+Files read from disk: 1
+Archive size: 440114 bytes (430 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1782309682.7z
+Backup successful!
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 4868320 bytes (4755 KiB)
+
+Creating archive: D:\release-v82\backup\1782336958.7z
+
+Add new data to archive: 1 file, 4868320 bytes (4755 KiB)
+
+
+Files read from disk: 1
+Archive size: 441346 bytes (432 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1782336958.7z
+Backup successful!
+Closing...

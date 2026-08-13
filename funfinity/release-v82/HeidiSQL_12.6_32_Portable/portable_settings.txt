@@ -1,0 +1,223 @@
+LastSessions<|||>1<|||>Local
+LastActiveSession<|||>1<|||>Local
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,10
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+CreateDbCollation<|||>1<|||>utf8mb4_0900_ai_ci
+FileDialogEncoding_MainForm<|||>3<|||>0
+MainWinMaximized<|||>3<|||>1
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,298
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+TableFilter<|||>1<|||>loc<{{{><}}}>de<{{{><}}}>direct<{{{><}}}>get_used_item_qty<{{{><}}}>es_customer_direct_master<{{{><}}}>dev<{{{><}}}>cus<{{{><}}}>es_billing_seting<{{{><}}}>es_payment<{{{><}}}>es_softplay_live_trans<{{{><}}}>es_customer_activity_master<{{{><}}}>payment<{{{><}}}>user<{{{><}}}>es_package_game<{{{><}}}>item<{{{><}}}>direc<{{{><}}}>es_customer_package<{{{><}}}>es_customer_direct<{{{><}}}>customer<{{{><}}}>ac<{{{><}}}>
+ColWidths_frmTableEditor.listColumns<|||>1<|||>47,377,154,90,60,65,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>314,100,80,120
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>200,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,420
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_DataHow<|||>3<|||>1
+ExportSQL_Filenames<|||>1<|||>C:\Users\mepar\Desktop\test-2027.sql<{{{><}}}>C:\Users\mepar\Desktop\test-bansiwala.sql<{{{><}}}>C:\Users\mepar\Desktop\sp.sql<{{{><}}}>C:\Users\mepar\Desktop\FUNZONE-SMALL\Funzone-Jaipur20240627\Funzone-Jaipur\bin\Debug\backup\es.sql<{{{><}}}>C:\Users\mepar\Desktop\FUNZONE-SMALL\Funzone-Jaipur20240627\Funzone-Jaipur\bin\Debug\backup\2027.sql<{{{><}}}>C:\Users\mepar\Desktop\share\mysql_blank.sql<{{{><}}}>C:\Users\mepar\Desktop\share\mysql_backup_20241126.sql<{{{><}}}>C:\Users\mepar\Desktop\License-2025\mydatabase\2024-10-17.sql<{{{><}}}>
+DateTimeEditor_CursorPos_Type4<|||>3<|||>0
+dbtreewidth<|||>3<|||>384
+ColWidths_frmRoutineEditor.listParameters<|||>1<|||>50,394,90,70
+ColsVisible_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColPositions_frmRoutineEditor.listParameters<|||>1<|||>0,1,2,3
+ColSort_frmRoutineEditor.listParameters<|||>1<|||>-1,0
+sqloutheight<|||>3<|||>146
+MemoEditorWidth<|||>3<|||>986
+MemoEditorHeight<|||>3<|||>493
+SQLFile0<|||>1<|||>C:\Users\mepar\Desktop\FUNZONE-SMALL\Funzone-Jaipur20240627\Funzone-Jaipur\bin\Debug\HeidiSQL_12.6_32_Portable\Backups\query-tab-2025-02-14_15-13-18-088.sql
+SQLFile1<|||>1<|||>C:\Users\mepar\Desktop\FUNZONE-SMALL\Funzone-Jaipur20240627\Funzone-Jaipur\bin\Debug\HeidiSQL_12.6_32_Portable\Backups\query-tab-2025-02-03_19-28-33-352.sql
+SQLFile2<|||>1<|||>C:\Users\mepar\Desktop\FUNZONE-SMALL\Funzone-Jaipur20240627\Funzone-Jaipur\bin\Debug\HeidiSQL_12.6_32_Portable\Backups\query-tab-2024-12-26_05-10-03-204.sql
+Servers\00E0222976C6\SessionCreated<|||>1<|||>2024-10-23 13:01:12
+Servers\00E0222976C6\Host<|||>1<|||>00E0222976C6.elesof.com
+Servers\00E0222976C6\WindowsAuth<|||>3<|||>0
+Servers\00E0222976C6\CleartextPluginEnabled<|||>3<|||>0
+Servers\00E0222976C6\User<|||>1<|||>fzcloud_00E0222976C6
+Servers\00E0222976C6\Password<|||>1<|||>71766C71694E7D766738384D383A3A3A413F3E4B3E674839413C3F5C392B8
+Servers\00E0222976C6\LoginPrompt<|||>3<|||>0
+Servers\00E0222976C6\Port<|||>1<|||>3306
+Servers\00E0222976C6\NetType<|||>3<|||>0
+Servers\00E0222976C6\Compressed<|||>3<|||>0
+Servers\00E0222976C6\LocalTimeZone<|||>3<|||>0
+Servers\00E0222976C6\QueryTimeout<|||>3<|||>30
+Servers\00E0222976C6\KeepAlive<|||>3<|||>20
+Servers\00E0222976C6\FullTableStatus<|||>3<|||>1
+Servers\00E0222976C6\Databases<|||>1<|||>
+Servers\00E0222976C6\Library<|||>1<|||>libmariadb.dll
+Servers\00E0222976C6\Comment<|||>1<|||>
+Servers\00E0222976C6\StartupScriptFilename<|||>1<|||>
+Servers\00E0222976C6\TreeBackground<|||>3<|||>536870911
+Servers\00E0222976C6\SSHtunnelActive<|||>3<|||>0
+Servers\00E0222976C6\SshExecutable<|||>1<|||>
+Servers\00E0222976C6\SSHtunnelHost<|||>1<|||>
+Servers\00E0222976C6\SSHtunnelHostPort<|||>3<|||>22
+Servers\00E0222976C6\SSHtunnelUser<|||>1<|||>
+Servers\00E0222976C6\SSHtunnelPassword<|||>1<|||>8
+Servers\00E0222976C6\SSHtunnelTimeout<|||>3<|||>4
+Servers\00E0222976C6\SSHtunnelPrivateKey<|||>1<|||>
+Servers\00E0222976C6\SSHtunnelPort<|||>3<|||>3307
+Servers\00E0222976C6\SSL_Active<|||>3<|||>0
+Servers\00E0222976C6\SSL_Key<|||>1<|||>
+Servers\00E0222976C6\SSL_Cert<|||>1<|||>
+Servers\00E0222976C6\SSL_CA<|||>1<|||>
+Servers\00E0222976C6\SSL_Cipher<|||>1<|||>
+Servers\00E0222976C6\IgnoreDatabasePattern<|||>1<|||>
+Servers\00E0222976C6\LogFileDdl<|||>3<|||>0
+Servers\00E0222976C6\LogFileDml<|||>3<|||>0
+Servers\00E0222976C6\LogFilePath<|||>1<|||>C:\Users\mepar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\00E0222976C6\ServerVersionFull<|||>1<|||>8.0.39-0ubuntu0.22.04.1 - (Ubuntu)
+Servers\00E0222976C6\ConnectCount<|||>3<|||>3
+Servers\00E0222976C6\ServerVersion<|||>3<|||>80039
+Servers\00E0222976C6\LastConnect<|||>1<|||>2024-10-23 13:05:44
+Servers\00E0222976C6\lastUsedDB<|||>1<|||>fzcloud_00E0222976C6
+Servers\705A0F382195\SessionCreated<|||>1<|||>2024-10-23 17:43:15
+Servers\705A0F382195\Host<|||>1<|||>705A0F382195.elesof.com
+Servers\705A0F382195\WindowsAuth<|||>3<|||>0
+Servers\705A0F382195\CleartextPluginEnabled<|||>3<|||>0
+Servers\705A0F382195\User<|||>1<|||>fzcloud_705A0F382195
+Servers\705A0F382195\Password<|||>1<|||>6F746A6F674C7B74653D363B47364C393E38373F3B6546373F3A3D5A37296
+Servers\705A0F382195\LoginPrompt<|||>3<|||>0
+Servers\705A0F382195\Port<|||>1<|||>3306
+Servers\705A0F382195\NetType<|||>3<|||>0
+Servers\705A0F382195\Compressed<|||>3<|||>0
+Servers\705A0F382195\LocalTimeZone<|||>3<|||>0
+Servers\705A0F382195\QueryTimeout<|||>3<|||>30
+Servers\705A0F382195\KeepAlive<|||>3<|||>20
+Servers\705A0F382195\FullTableStatus<|||>3<|||>1
+Servers\705A0F382195\Databases<|||>1<|||>
+Servers\705A0F382195\Library<|||>1<|||>libmariadb.dll
+Servers\705A0F382195\Comment<|||>1<|||>
+Servers\705A0F382195\StartupScriptFilename<|||>1<|||>
+Servers\705A0F382195\TreeBackground<|||>3<|||>536870911
+Servers\705A0F382195\SSHtunnelActive<|||>3<|||>0
+Servers\705A0F382195\SshExecutable<|||>1<|||>
+Servers\705A0F382195\SSHtunnelHost<|||>1<|||>
+Servers\705A0F382195\SSHtunnelHostPort<|||>3<|||>22
+Servers\705A0F382195\SSHtunnelUser<|||>1<|||>
+Servers\705A0F382195\SSHtunnelPassword<|||>1<|||>2
+Servers\705A0F382195\SSHtunnelTimeout<|||>3<|||>4
+Servers\705A0F382195\SSHtunnelPrivateKey<|||>1<|||>
+Servers\705A0F382195\SSHtunnelPort<|||>3<|||>3307
+Servers\705A0F382195\SSL_Active<|||>3<|||>0
+Servers\705A0F382195\SSL_Key<|||>1<|||>
+Servers\705A0F382195\SSL_Cert<|||>1<|||>
+Servers\705A0F382195\SSL_CA<|||>1<|||>
+Servers\705A0F382195\SSL_Cipher<|||>1<|||>
+Servers\705A0F382195\IgnoreDatabasePattern<|||>1<|||>
+Servers\705A0F382195\LogFileDdl<|||>3<|||>0
+Servers\705A0F382195\LogFileDml<|||>3<|||>0
+Servers\705A0F382195\LogFilePath<|||>1<|||>C:\Users\mepar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\705A0F382195\ServerVersionFull<|||>1<|||>8.0.39-0ubuntu0.22.04.1 - (Ubuntu)
+Servers\705A0F382195\ConnectCount<|||>3<|||>1
+Servers\705A0F382195\ServerVersion<|||>3<|||>80039
+Servers\705A0F382195\LastConnect<|||>1<|||>2024-10-23 17:43:49
+Servers\705A0F382195\lastUsedDB<|||>1<|||>fzcloud_705A0F382195
+Servers\Local\SessionCreated<|||>1<|||>2024-07-09 17:09:02
+Servers\Local\Host<|||>1<|||>127.0.0.1
+Servers\Local\WindowsAuth<|||>3<|||>0
+Servers\Local\CleartextPluginEnabled<|||>3<|||>0
+Servers\Local\User<|||>1<|||>root
+Servers\Local\Password<|||>1<|||>6B79463738396
+Servers\Local\LoginPrompt<|||>3<|||>0
+Servers\Local\Port<|||>1<|||>3306
+Servers\Local\NetType<|||>3<|||>0
+Servers\Local\Compressed<|||>3<|||>0
+Servers\Local\LocalTimeZone<|||>3<|||>0
+Servers\Local\QueryTimeout<|||>3<|||>30
+Servers\Local\KeepAlive<|||>3<|||>20
+Servers\Local\FullTableStatus<|||>3<|||>1
+Servers\Local\Databases<|||>1<|||>
+Servers\Local\Library<|||>1<|||>libmariadb.dll
+Servers\Local\Comment<|||>1<|||>
+Servers\Local\StartupScriptFilename<|||>1<|||>
+Servers\Local\TreeBackground<|||>3<|||>536870911
+Servers\Local\SSHtunnelActive<|||>3<|||>0
+Servers\Local\SshExecutable<|||>1<|||>plink.exe
+Servers\Local\SSHtunnelHost<|||>1<|||>
+Servers\Local\SSHtunnelHostPort<|||>3<|||>22
+Servers\Local\SSHtunnelUser<|||>1<|||>
+Servers\Local\SSHtunnelPassword<|||>1<|||>2
+Servers\Local\SSHtunnelTimeout<|||>3<|||>4
+Servers\Local\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Local\SSHtunnelPort<|||>3<|||>3307
+Servers\Local\SSL_Active<|||>3<|||>0
+Servers\Local\SSL_Key<|||>1<|||>
+Servers\Local\SSL_Cert<|||>1<|||>
+Servers\Local\SSL_CA<|||>1<|||>
+Servers\Local\SSL_Cipher<|||>1<|||>
+Servers\Local\IgnoreDatabasePattern<|||>1<|||>
+Servers\Local\LogFileDdl<|||>3<|||>0
+Servers\Local\LogFileDml<|||>3<|||>0
+Servers\Local\LogFilePath<|||>1<|||>C:\Users\mepar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Local\ServerVersionFull<|||>1<|||>8.0.33 - MySQL Community Server - GPL
+Servers\Local\ConnectCount<|||>3<|||>28
+Servers\Local\ServerVersion<|||>3<|||>80033
+Servers\Local\LastConnect<|||>1<|||>2025-10-12 11:37:56
+Servers\Local\lastUsedDB<|||>1<|||>es
+Servers\Local\RefusedCount<|||>3<|||>6
+Servers\Local\es_2027|es_payment\Sort<|||>1<|||>1_id|
+Servers\Local\QueryHistory\2<|||>1<|||>2025-02-03 18:52:16|es|31|SELECT *  from es_payment 
+Servers\Local\QueryHistory\1<|||>1<|||>2025-02-03 18:52:55|es|0|select payment_mode, sum(recharge_amount) as ra  from es_payment  GROUP BY payment_mode
+Servers\Local\QueryHistory\3<|||>1<|||>2025-02-03 18:53:14|es|31|select payment_mode, sum(recharge_amount) as ra  from es_payment  GROUP BY payment_mode;<{{{><}}}>select *  from es_payment;
+Servers\Local\QueryHistory\4<|||>1<|||>2025-02-03 18:54:18|es|46|select payment_mode, DATE(created_at) AS dt , sum(recharge_amount) as ra  from es_payment  GROUP BY payment_mode, dt;<{{{><}}}>select *  from es_payment;
+Servers\Local\QueryHistory\5<|||>1<|||>2025-02-03 18:54:40|es|0|select payment_mode, DATE(created_at) AS dt , sum(recharge_amount) as ra  from es_payment  GROUP BY payment_mode, dt order BY payment_mode;<{{{><}}}>select *  from es_payment;
+Servers\Local\QueryHistory\6<|||>1<|||>2025-02-03 20:00:21|es|31|select DATE(created_at) AS dt, count(1) as card_count, min(id) as card_from, max(id) as card_to from es_customer  GROUP BY dt ORDER BY dt
+Servers\Local\QueryHistory\8<|||>1<|||>2025-02-03 21:35:53|es|0|select DATE(cd.created_at) AS dt, i.id, i.name as item_name, sum(cd.qty) as qa, sum(cd.amount) as da from es_customer_direct as cd inner join es_item as i on i.id = cd.item_id where cd.created_at>='2024-11-01 00:00:01' and cd.created_at<='2024-12-31 23:59:59'  group by dt, i.id, i.name order by dt, i.id, i.name
+Servers\Local\QueryHistory\9<|||>1<|||>2025-02-03 21:37:19|es|0|select DATE(cd.created_at) AS dt, i.id, i.name as item_name, sum(cd.qty) as qa, sum(cd.amount) as da from es_customer_direct as cd inner join es_item as i on i.id = cd.item_id where cd.created_at>='2024-11-01 00:00:01' and cd.created_at<='2024-12-31 23:59:59'  group by dt, i.id, item_name order by dt, i.id, item_name
+Servers\Local\QueryHistory\10<|||>1<|||>2025-02-03 21:39:27|es_bansiwala|0|select DATE(cd.created_at) AS dt, i.id, i.name as item_name, sum(cd.qty) as qa, sum(cd.amount) as da from es_customer_direct as cd inner join es_item as i on i.id = cd.item_id where cd.created_at>='2024-01-01 00:00:01' and cd.created_at<='2024-12-31 23:59:59'  group by dt, i.id, i.name order by dt, i.id, i.name
+Servers\Local\QueryHistory\7<|||>1<|||>2025-02-14 11:04:59|es_bansiwala|0|SELECT * FROM es_locker_customer WHERE is_new = 1
+Servers\Local\QueryHistory\11<|||>1<|||>2025-02-14 11:21:35|es_bansiwala|0|SELECT id, rfid, customer_name, customer_phone, assigned_locker_device_name, assigned_locker_device_locker_number, locker_amount, locker_security_amount, payment_mode, created_by, created_at, guid FROM es_locker_customer WHERE is_new = 1;<{{{><}}}><{{{><}}}><{{{><}}}>
+Servers\Local\QueryHistory\12<|||>1<|||>2025-02-14 11:32:11|es_bansiwala|0|SELECT * FROM es_locker_customer
+Servers\Local\QueryHistory\13<|||>1<|||>2025-02-14 13:07:59|es_bansiwala|0|SELECT * FROM es_locker_customer WHERE is_new=1 AND rfid='{1739315391}'
+Servers\Local\QueryHistory\14<|||>1<|||>2025-02-14 13:08:42|es_bansiwala|0|SELECT * FROM es_locker_device
+Servers\Local\QueryHistory\15<|||>1<|||>2025-02-14 13:10:05|es_bansiwala|0|<{{{><}}}>SELECT elc.*, eld.device_name, eld.device_mac FROM es_locker_customer AS elc INNER JOIN es_locker_device AS eld ON elc.assigned_locker_device_id = eld.id WHERE elc.is_new=1 AND elc.rfid='{1739315391}'
+Servers\Local\QueryHistory\16<|||>1<|||>2025-02-14 13:11:21|es_bansiwala|0|<{{{><}}}>SELECT elc.assigned_locker_device_locker_number FROM es_locker_customer AS elc INNER JOIN es_locker_device AS eld ON elc.assigned_locker_device_id = eld.id WHERE elc.is_new=1 AND elc.rfid='{1739315391}'
+Servers\Local\QueryHistory\17<|||>1<|||>2025-02-14 13:12:05|es_bansiwala|0|<{{{><}}}>SELECT eld.device_mac FROM es_locker_customer AS elc INNER JOIN es_locker_device AS eld ON elc.assigned_locker_device_id = eld.id WHERE elc.is_new=1 AND elc.rfid='{1739315391}'
+Servers\Local\QueryHistory\18<|||>1<|||>2025-02-14 13:14:25|es_bansiwala|0|select <{{{><}}}>    elc.assigned_locker_device_locker_number as locker_number<{{{><}}}>from es_locker_customer as elc inner join <{{{><}}}>     es_locker_device as eld on elc.assigned_locker_device_id = eld.id <{{{><}}}>where elc.is_new=1 
+Servers\Local\QueryHistory\20<|||>1<|||>2025-02-14 15:11:48|es_bansiwala|15|CALL UpdateLockerCustomerAndInsertActivity(9, 'e9f4cf5a-b0ba-4bd7-9fe2-f9beaf9f7911-1739302157');<{{{><}}}>
+Servers\Local\QueryHistory\21<|||>1<|||>2025-02-14 15:15:38|es_bansiwala|0|CALL UpdateLockerCustomerAndInsertActivity(9, 'e9f4cf5a-b0ba-4bd7-9fe2-f9beaf9f7911-1739302157', @result);<{{{><}}}><{{{><}}}>SELECT @result;
+Servers\Local\QueryHistory\19<|||>1<|||>2025-02-14 15:24:20|es_bansiwala|15|CALL UpdateLockerCustomerAndInsertActivity(9, 'e9f4cf5a-b0ba-4bd7-9fe2-f9beaf9f7911-1739302157');<{{{><}}}><{{{><}}}>SELECT @result;
+Servers\Local\QueryHistory\22<|||>1<|||>2025-02-14 15:50:10|es_bansiwala|0|UPDATE `es_bansiwala`.`es_locker_activity` SET `rfid`='{1727383243}'
+Servers\Local\QueryHistory\23<|||>1<|||>2025-02-14 15:50:29|es_bansiwala|15|UPDATE `es_bansiwala`.`es_locker_activity` SET `guid`='ddf6fcdd-eab6-11ef-a0ce-0a002700000f'
+Servers\Local\QueryHistory\25<|||>1<|||>2025-02-14 15:55:10|es_bansiwala|0|SELECT * FROM es_locker_activity
+Servers\Local\QueryHistory\26<|||>1<|||>2025-02-14 15:58:05|es_bansiwala|0|UPDATE `es_bansiwala`.`es_locker_activity` SET `customer_id`='15'
+Servers\Local\QueryHistory\24<|||>1<|||>2025-02-14 15:58:15|es_bansiwala|0|SELECT id, guid AS `Request GUID`, locker_device_name AS `Locker Name`, locker_device_locker_number AS `Locker Number`, customer_guid AS `Customer Guid`, created_at AS `Date & Time` FROM es_locker_activity where customer_guid='ddf6fcdd-eab6-11ef-a0ce-0a002700000f' 
+Servers\Local\QueryHistory\28<|||>1<|||>2025-02-14 15:58:40|es_bansiwala|0|UPDATE `es_bansiwala`.`es_locker_activity` SET `customer_guid`='ddf6fcdd-eab6-11ef-a0ce-0a002700000f'
+Servers\Local\QueryHistory\29<|||>1<|||>2025-02-14 15:58:41|es_bansiwala|0|SELECT id, guid AS `Request GUID`, locker_device_name AS `Locker Name`, locker_device_locker_number AS `Locker Number`, customer_guid AS `Customer Guid`, created_at AS `Date & Time` FROM es_locker_activity where customer_guid='ddf6fcdd-eab6-11ef-a0ce-0a002700000f' and customer_id='15'

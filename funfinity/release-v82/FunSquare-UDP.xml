@@ -1,0 +1,445 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FunSquare-UDP
+</name>
+</assembly>
+<members>
+<member name="T:FunSquare.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.buyer_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.change_password_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.change_password_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.close_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.close_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.contact_us">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.customer_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.customer_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.device_16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.device_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.direct_sale_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.direct_sale_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.excel_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.excel_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.fw_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.fw_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.logout_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.logout_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.on_demand_backup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.pdf_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.pdf_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.play_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.print_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.print_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.qr_scan_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.qr_scan_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.qr_scan_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.refresh_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.refresh_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.report_game_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.report_game_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.report_payment_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.report_payment_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.save_128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.save_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.save_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.search_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.search_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.splash_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.trash_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquare.My.Resources.Resources.trash_64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.SynchronizeSchemas">
+ <summary>
+ Main synchronization method
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.FindMissingTables">
+ <summary>
+ Find tables that exist in latest but not in old database
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.FindColumnChanges">
+ <summary>
+ Find column differences (missing or wrong position)
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.CompareTableColumns(FunSquare.TableInfo,FunSquare.TableInfo)">
+ <summary>
+ Compare columns between latest and old table
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.GenerateCreateTableScripts(System.Collections.Generic.List{System.String})">
+ <summary>
+ Generate CREATE TABLE scripts for missing tables
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.GenerateAlterTableScripts(System.Collections.Generic.Dictionary{System.String,FunSquare.ColumnChangeInfo})">
+ <summary>
+ Generate ALTER TABLE scripts for column changes
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.GenerateColumnReorganizationScript(FunSquare.TableInfo,FunSquare.ColumnChangeInfo)">
+ <summary>
+ Generate ALTER TABLE script to add missing columns and reorder existing ones
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.GenerateAddColumnStatement(FunSquare.ColumnInfo,System.String)">
+ <summary>
+ Generate ADD COLUMN statement
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.GenerateModifyColumnStatement(FunSquare.ColumnInfo,System.String)">
+ <summary>
+ Generate MODIFY COLUMN statement (for repositioning)
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.AddCenterCodeColumn(System.String,System.String)">
+ <summary>
+ Add center_code column to table creation script (for bounce_club compatibility)
+ </summary>
+</member>
+<member name="M:FunSquare.DatabaseSchemaSynchronizer.ExecuteSyncScripts(System.Collections.Generic.List{System.String})">
+ <summary>
+ Execute synchronization scripts
+ </summary>
+</member>
+<member name="T:FunSquare.CommManager.TransmissionType">
+ <summary>
+ enumeration to hold our transmission types
+ </summary>
+</member>
+<member name="T:FunSquare.CommManager.MessageType">
+ <summary>
+ enumeration to hold our message types
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.BaudRate">
+ <summary>
+ Property to hold the BaudRate
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.Parity">
+ <summary>
+ property to hold the Parity
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.StopBits">
+ <summary>
+ property to hold the StopBits
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.DataBits">
+ <summary>
+ property to hold the DataBits
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.PortName">
+ <summary>
+ property to hold the PortName
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.CurrentTransmissionType">
+ <summary>
+ property to hold our TransmissionType
+ of our manager class
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.DisplayWindow">
+ <summary>
+ property to hold our display window
+ value
+ </summary>
+</member>
+<member name="P:FunSquare.CommManager.Message">
+ <summary>
+ Property to hold the message being sent
+ through the serial port
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:FunSquare.CommManager.Type">
+ <summary>
+ Message to hold the transmission type
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:FunSquare.CommManager.#ctor(System.String,System.String,System.String,System.String,System.String,System.Windows.Forms.Form)">
+ <summary>
+ Constructor to set the properties of our Manager Class
+ </summary>
+ <param name="baud">Desired BaudRate</param>
+ <param name="par">Desired Parity</param>
+ <param name="sBits">Desired StopBits</param>
+ <param name="dBits">Desired DataBits</param>
+ <param name="name">Desired PortName</param>
+</member>
+<member name="M:FunSquare.CommManager.#ctor">
+ <summary>
+ Comstructor to set the properties of our
+ serial port communicator to nothing
+ </summary>
+</member>
+<member name="M:FunSquare.CommManager.HexToByte(System.String)">
+ <summary>
+ method to convert hex string into a byte array
+ </summary>
+ <param name="msg">string to convert</param>
+ <returns>a byte array</returns>
+</member>
+<member name="M:FunSquare.CommManager.ByteToHex(System.Byte[])">
+ <summary>
+ method to convert a byte array into a hex string
+ </summary>
+ <param name="comByte">byte array to convert</param>
+ <returns>a hex string</returns>
+</member>
+<member name="M:FunSquare.CommManager.DisplayData(FunSquare.CommManager.MessageType,System.String)">
+ <summary>
+ Method to display the data to and
+ from the port on the screen
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FunSquare.CommManager.comPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ method that will be called when theres data waiting in the buffer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:FunSquare.AutoUpdater.IsInternetAvailable">
+ <summary>
+ Checks for internet connectivity
+ </summary>
+ <returns>True if internet is available</returns>
+</member>
+<member name="M:FunSquare.AutoUpdater.CheckForUpdate">
+ <summary>
+ Checks if an update is available
+ </summary>
+</member>
+<member name="M:FunSquare.AutoUpdater.DownloadAndApplyUpdate">
+ <summary>
+ Downloads and applies the update
+ </summary>
+</member>
+<member name="M:FunSquare.AutoUpdater.CreateUpdateBatchFile">
+ <summary>
+ Creates a batch file to handle the update process after the app closes
+ </summary>
+</member>
+<member name="M:FunSquare.AutoUpdater.VersionToNumber(System.String)">
+ <summary>
+ Converts version string to a comparable number
+ </summary>
+</member>
+<member name="M:FunSquare.AutoUpdater.StartInternetMonitoring(System.Int32)">
+ <summary>
+ Starts periodic internet status checks
+ </summary>
+</member>
+</members>
+</doc>

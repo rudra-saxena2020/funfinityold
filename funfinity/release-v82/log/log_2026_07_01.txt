@@ -1,0 +1,1273 @@
+﻿select * from es_cloud_setting limit 1
+select * from es_billing_seting
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:202:231:251:186:170'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:33:180:82'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:30:8:130'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='58:117:123:229:77:106'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:198:100'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:225'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:105:241:149'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:137'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:24:27'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:236'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:114'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:24:6'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:20:80'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:123'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:143'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:165'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:33:179:169'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:244'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:197:221'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:105:241:61'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:13:42:80'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:117:20:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:185:170:191'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:144:45:201:112:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select id, permission_game_report, permission_payment_report, permission_return_card from es_user where user_name='user1' and password='1102'
+select * from es_billing_seting
+__LOAD_billing_seting : DONE
+__LOAD_billing_seting vip : 0
+SELECT ModuleID FROM UserModules WHERE UserID = 3
+select * from es_daily_opening_balance where dt_ddmmyyyy='01/07/2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='01-07-2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='01-07-2026'
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--Port opened at 7/1/2026 4:55:16 PM-->
+
+<!--{76776D0B}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76776D0B}'
+select id from es_customer where rfid='{76776D0B}' and is_new=1
+select bonus_amount from es_bonus where amount=100 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@100!-->
+
+<!--{76776D0B}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76776D0B}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{76776D0B}'
+select * from es_billing where rfid='{76776D0B}' and guid='187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965'
+select * from es_softplay_customer_slots where rfid='{76776D0B}' and customer_id='2087'
+select * from es_sale where rfid='{76776D0B}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{76776D0B}' and guid='187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965' AND n_eslt.customer_rfid = '{76776D0B}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2087 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '187b092f-120e-4fe2-ab34-bb5b8c5834c4-1782924965' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.101:2390
+2: {76776D0B}<44:58:232:9:178:152>
+Socket Read Method Receive:{76776D0B}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{76776D0B}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{76776D0B}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2087' and rfid='{76776D0B}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2087 and end_date_time > 1782925384 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2087 and end_date_time > 1782925384 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+1: 192.168.3.100:2390
+2: {76776D0B}<140:206:78:211:235:142>
+Socket Read Method Receive:{76776D0B}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{76776D0B}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{76776D0B}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2087' and rfid='{76776D0B}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2087 and end_date_time > 1782925565 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2087 and end_date_time > 1782925565 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00000)
+<!--{76A013A2}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76A013A2}'
+<!--{76A013A2}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76A013A2}'
+select id from es_customer where rfid='{76A013A2}' and is_new=1
+select bonus_amount from es_bonus where amount=150 order by amount desc
+<!--{76A013A2}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76A013A2}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{76A013A2}'
+select * from es_billing where rfid='{76A013A2}' and guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029'
+select * from es_softplay_customer_slots where rfid='{76A013A2}' and customer_id='2088'
+select * from es_sale where rfid='{76A013A2}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{76A013A2}' and guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' AND n_eslt.customer_rfid = '{76A013A2}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2088 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' ORDER BY ecp.end_date_time DESC;
+<!--{76A013A2}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{76A013A2}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{76A013A2}'
+select * from es_billing where rfid='{76A013A2}' and guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029'
+select * from es_softplay_customer_slots where rfid='{76A013A2}' and customer_id='2088'
+select * from es_sale where rfid='{76A013A2}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{76A013A2}' and guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' AND n_eslt.customer_rfid = '{76A013A2}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2088 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3cd8fbd7-5ed1-46df-9c38-0036ef91b624-1782930029' ORDER BY ecp.end_date_time DESC;
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@0!-->
+
+1: 192.168.3.101:2390
+2: {76A013A2}<44:58:232:9:178:152>
+Socket Read Method Receive:{76A013A2}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{76A013A2}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{76A013A2}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2088' and rfid='{76A013A2}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2088 and end_date_time > 1782930179 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2088 and end_date_time > 1782930179 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00100)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00100)
+1: 192.168.3.100:2390
+2: {76A013A2}<140:206:78:211:235:142>
+Socket Read Method Receive:{76A013A2}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{76A013A2}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{76A013A2}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2088' and rfid='{76A013A2}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2088 and end_date_time > 1782930325 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2088 and end_date_time > 1782930325 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00050)
+1: 192.168.3.102:2390
+2: {76A013A2}<188:221:194:159:80:247>
+Socket Read Method Receive:{76A013A2}<188:221:194:159:80:247>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_techcard where rfid='{76A013A2}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='188:221:194:159:80:247' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 11 or ess.device_out_id = 11 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_customer where is_new=1 and rfid='{76A013A2}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2088' and rfid='{76A013A2}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2088 and end_date_time > 1782930566 and game_id = 6 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2088 and end_date_time > 1782930566 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='6' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='6' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.102 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.102 -> (@00000)
+<!--{3C71260C}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3C71260C}'
+select id from es_customer where rfid='{3C71260C}' and is_new=1
+select bonus_amount from es_bonus where amount=50 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@50!-->
+
+<!--{3C71260C}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3C71260C}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3C71260C}'
+select * from es_billing where rfid='{3C71260C}' and guid='3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152'
+select * from es_softplay_customer_slots where rfid='{3C71260C}' and customer_id='2089'
+select * from es_sale where rfid='{3C71260C}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{3C71260C}' and guid='3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152' AND n_eslt.customer_rfid = '{3C71260C}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2089 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3387796a-9e64-4618-a45f-bbb09864e4c2-1782934152' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.101:2390
+2: {3C71260C}<44:58:232:9:178:152>
+Socket Read Method Receive:{3C71260C}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{3C71260C}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{3C71260C}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2089' and rfid='{3C71260C}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2089 and end_date_time > 1782934280 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2089 and end_date_time > 1782934280 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)
+<!--{39C99A22}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{39C99A22}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{39C99A22}'
+select * from es_billing where rfid='{39C99A22}' and guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658'
+select * from es_softplay_customer_slots where rfid='{39C99A22}' and customer_id='1041'
+select * from es_sale where rfid='{39C99A22}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' AND n_eslt.customer_rfid = '{39C99A22}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1041 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' ORDER BY ecp.end_date_time DESC;
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{39C99A22}' and guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658'
+select * from es_customer where rfid='{39C99A22}' and guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' and is_new=1
+select bonus_amount from es_bonus where amount=50 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@50!-->
+
+<!--{39C99A22}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{39C99A22}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{39C99A22}'
+select * from es_billing where rfid='{39C99A22}' and guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658'
+select * from es_softplay_customer_slots where rfid='{39C99A22}' and customer_id='1041'
+select * from es_sale where rfid='{39C99A22}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' AND n_eslt.customer_rfid = '{39C99A22}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1041 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '719b7a53-5737-4238-b3fd-efc33c01e9a3-1764263658' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.103:2390
+2: {39C99A22}<96:1:148:43:38:214>
+Socket Read Method Receive:{39C99A22}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{39C99A22}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{39C99A22}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1041' and rfid='{39C99A22}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1041 and end_date_time > 1782935841 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1041 and end_date_time > 1782935841 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+<!--{61D69A66}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{61D69A66}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{61D69A66}'
+select * from es_billing where rfid='{61D69A66}' and guid='d763747c-0fdb-44d9-a553-e79edbd5f4ac-1774036827'
+select * from es_softplay_customer_slots where rfid='{61D69A66}' and customer_id='1639'
+select * from es_sale where rfid='{61D69A66}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = 'd763747c-0fdb-44d9-a553-e79edbd5f4ac-1774036827' AND n_eslt.customer_rfid = '{61D69A66}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1639 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='d763747c-0fdb-44d9-a553-e79edbd5f4ac-1774036827' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='d763747c-0fdb-44d9-a553-e79edbd5f4ac-1774036827' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = 'd763747c-0fdb-44d9-a553-e79edbd5f4ac-1774036827' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.103:2390
+2: {61D69A66}<96:1:148:43:38:214>
+Socket Read Method Receive:{61D69A66}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{61D69A66}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{61D69A66}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1639' and rfid='{61D69A66}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1639 and end_date_time > 1782937977 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1639 and end_date_time > 1782937977 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00050)
+1: 192.168.3.103:2390
+2: {61D69A66}<96:1:148:43:38:214>
+Socket Read Method Receive:{61D69A66}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{61D69A66}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{61D69A66}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1639' and rfid='{61D69A66}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1639 and end_date_time > 1782937996 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1639 and end_date_time > 1782937996 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+<!--{3993E705}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3993E705}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3993E705}'
+select * from es_billing where rfid='{3993E705}' and guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766'
+select * from es_softplay_customer_slots where rfid='{3993E705}' and customer_id='1193'
+select * from es_sale where rfid='{3993E705}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' AND n_eslt.customer_rfid = '{3993E705}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1193 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' ORDER BY ecp.end_date_time DESC;
+<!--{37FBA902}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{37FBA902}'
+select id from es_customer where rfid='{37FBA902}' and is_new=1
+select bonus_amount from es_bonus where amount=450 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@450!-->
+
+<!--{37FBA902}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{37FBA902}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{37FBA902}'
+select * from es_billing where rfid='{37FBA902}' and guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406'
+select * from es_softplay_customer_slots where rfid='{37FBA902}' and customer_id='2090'
+select * from es_sale where rfid='{37FBA902}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{37FBA902}' and guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' AND n_eslt.customer_rfid = '{37FBA902}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2090 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.101:2390
+2: {37FBA902}<44:58:232:9:178:152>
+Socket Read Method Receive:{37FBA902}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939502 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939502 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00400)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00400)
+1: 192.168.3.100:2390
+2: {37FBA902}<140:206:78:211:235:142>
+Socket Read Method Receive:{37FBA902}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939604 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939604 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00350)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00350)
+select id, permission_game_report, permission_payment_report, permission_return_card from es_user where user_name='su' and password='su@123#'
+select * from es_billing_seting
+__LOAD_billing_seting : DONE
+__LOAD_billing_seting vip : 0
+SELECT ModuleID FROM UserModules WHERE UserID = 1
+select * from es_daily_opening_balance where dt_ddmmyyyy='01/07/2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='01-07-2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='01-07-2026'
+<!--Port closed at 7/1/2026 9:00:10 PM-->
+
+select count(1) as card_count from es_customer where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select count(1) as return_count from es_payment where payment_mode = 'RETURN CARD CASH' and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select payment_mode, sum(recharge_amount - discount_amount_on_bill) as ra from es_payment where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='GAME' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select payment_mode, sum(total_amount) as ra from es_customer_direct_sale where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='DIRECT SALE' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select log_game, count(1) as qa, sum(amount) as ga from es_billing where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' group by log_game order BY log_game
+select item_id, item_name, sum(item_qty) as qa, sum(final_gross_amount) as da from  es_customer_direct_sale_detail where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  group by item_id, item_name order by item_name, item_id
+SELECT recharge_amount , COUNT(recharge_amount) as c from es_payment WHERE recharge_amount IN (SELECT amount FROM es_bonus) and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  GROUP BY recharge_amount ORDER BY recharge_amount;
+SELECT CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END AS card_type, COUNT(*) AS payment_count, SUM(ep.recharge_amount) AS total_amount FROM es_payment AS ep INNER JOIN es_customer AS ec ON ec.guid = ep.guid AND ec.rfid = ep.rfid WHERE ec.is_vip = 1 and ep.created_at>='2026-07-01 00:00:00' and ep.created_at<='2026-07-01 23:59:59'  GROUP BY CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.created_at>='2026-07-01 00:00:01' and _ep.created_at<='2026-07-01 23:59:59'  and _ep.is_deleted <> 'yes' order by _ep.id desc
+SELECT count(1) as c FROM es_payment WHERE is_deleted='yes'
+delete from es_payment WHERE is_deleted='yes'
+SELECT * FROM es_payment
+SELECT count(1) as c FROM es_payment WHERE is_deleted='yes'
+delete from es_payment WHERE is_deleted='yes'
+SELECT * FROM es_payment
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.created_at>='2026-07-01 00:00:01' and _ep.created_at<='2026-07-01 23:59:59'  and _ep.is_deleted <> 'yes' order by _ep.id desc
+select count(1) as card_count from es_customer where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select count(1) as return_count from es_payment where payment_mode = 'RETURN CARD CASH' and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select payment_mode, sum(recharge_amount - discount_amount_on_bill) as ra from es_payment where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='GAME' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select payment_mode, sum(total_amount) as ra from es_customer_direct_sale where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='DIRECT SALE' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select log_game, count(1) as qa, sum(amount) as ga from es_billing where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' group by log_game order BY log_game
+select item_id, item_name, sum(item_qty) as qa, sum(final_gross_amount) as da from  es_customer_direct_sale_detail where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  group by item_id, item_name order by item_name, item_id
+SELECT recharge_amount , COUNT(recharge_amount) as c from es_payment WHERE recharge_amount IN (SELECT amount FROM es_bonus) and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  GROUP BY recharge_amount ORDER BY recharge_amount;
+SELECT CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END AS card_type, COUNT(*) AS payment_count, SUM(ep.recharge_amount) AS total_amount FROM es_payment AS ep INNER JOIN es_customer AS ec ON ec.guid = ep.guid AND ec.rfid = ep.rfid WHERE ec.is_vip = 1 and ep.created_at>='2026-07-01 00:00:00' and ep.created_at<='2026-07-01 23:59:59'  GROUP BY CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END
+1: 192.168.3.101:2390
+2: {37FBA902}<44:58:232:9:178:152>
+Socket Read Method Receive:{37FBA902}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939694 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939694 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00300)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00300)
+1: 192.168.3.100:2390
+2: {37FBA902}<140:206:78:211:235:142>
+Socket Read Method Receive:{37FBA902}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939835 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939835 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00250)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00250)
+1: 192.168.3.101:2390
+2: {37FBA902}<44:58:232:9:178:152>
+Socket Read Method Receive:{37FBA902}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939888 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939888 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00200)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00200)
+1: 192.168.3.103:2390
+2: {37FBA902}<96:1:148:43:38:214>
+Socket Read Method Receive:{37FBA902}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939910 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939910 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00150)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00150)
+1: 192.168.3.103:2390
+2: {37FBA902}<96:1:148:43:38:214>
+Socket Read Method Receive:{37FBA902}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782939921 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782939921 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00100)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00100)
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--Port opened at 7/1/2026 9:10:26 PM-->
+
+<!--{60D524F6}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{60D524F6}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{60D524F6}'
+select * from es_billing where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403'
+select * from es_softplay_customer_slots where rfid='{60D524F6}' and customer_id='2040'
+select * from es_sale where rfid='{60D524F6}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' AND n_eslt.customer_rfid = '{60D524F6}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2040 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' ORDER BY ecp.end_date_time DESC;
+<!--{60D524F6}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{60D524F6}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{60D524F6}'
+select * from es_billing where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403'
+select * from es_softplay_customer_slots where rfid='{60D524F6}' and customer_id='2040'
+select * from es_sale where rfid='{60D524F6}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' AND n_eslt.customer_rfid = '{60D524F6}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2040 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' ORDER BY ecp.end_date_time DESC;
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403'
+select * from es_customer where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and is_new=1
+select bonus_amount from es_bonus where amount=300 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@300!-->
+
+<!--{60D524F6}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{60D524F6}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{60D524F6}'
+select * from es_billing where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403'
+select * from es_softplay_customer_slots where rfid='{60D524F6}' and customer_id='2040'
+select * from es_sale where rfid='{60D524F6}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' AND n_eslt.customer_rfid = '{60D524F6}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2040 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.102:2390
+2: {37FBA902}<96:1:148:41:92:16>
+Socket Read Method Receive:{37FBA902}<96:1:148:41:92:16>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:41:92:16'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:41:92:16' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 12 or ess.device_out_id = 12 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:41:92:16'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782940260 and game_id = 16 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782940260 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='16' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='16' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.102 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.102 -> (@00050)
+<!--{37FBA902}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{37FBA902}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{37FBA902}'
+select * from es_billing where rfid='{37FBA902}' and guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406'
+select * from es_softplay_customer_slots where rfid='{37FBA902}' and customer_id='2090'
+select * from es_sale where rfid='{37FBA902}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' AND n_eslt.customer_rfid = '{37FBA902}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2090 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '374997ab-a77c-4b81-bdd9-02f81272ba1e-1782939406' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.104:2390
+2: {00000000}<44:58:232:9:83:203>
+Socket Read Method Receive:{00000000}<44:58:232:9:83:203>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:83:203'
+select * from es_techcard where rfid='{00000000}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:83:203' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 4 or ess.device_out_id = 4 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:83:203'
+select * from es_customer where is_new=1 and rfid='{00000000}' order by id desc limit 1
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.104 -> *@!#
+Post sendCommand Device IP as IPEndPoint :  192.168.3.104 -> *@!#
+1: 192.168.3.104:2390
+2: {37FBA902}<44:58:232:9:83:203>
+Socket Read Method Receive:{37FBA902}<44:58:232:9:83:203>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:83:203'
+select * from es_techcard where rfid='{37FBA902}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:83:203' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 4 or ess.device_out_id = 4 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:83:203'
+select * from es_customer where is_new=1 and rfid='{37FBA902}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2090' and rfid='{37FBA902}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2090 and end_date_time > 1782940462 and game_id = 11 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2090 and end_date_time > 1782940462 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='11' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='11' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.104 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.104 -> (@00000)
+1: 192.168.3.105:2390
+2: {39B29350}<188:221:194:159:80:247>
+Socket Read Method Receive:{39B29350}<188:221:194:159:80:247>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='188:221:194:159:80:247' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 11 or ess.device_out_id = 11 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782940508 and game_id = 6 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782940508 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='6' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='6' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01901)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01901)
+select count(1) as card_count from es_customer where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select count(1) as return_count from es_payment where payment_mode = 'RETURN CARD CASH' and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'
+select payment_mode, sum(recharge_amount - discount_amount_on_bill) as ra from es_payment where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='GAME' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select payment_mode, sum(total_amount) as ra from es_customer_direct_sale where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' GROUP BY payment_mode order BY payment_mode
+select IFNULL(sum(amt),0) as sa from es_payment_adjustment where dept='DIRECT SALE' and dt >='2026-07-01 00:00:00' and dt<='2026-07-01 23:59:59'
+select log_game, count(1) as qa, sum(amount) as ga from es_billing where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59' group by log_game order BY log_game
+select item_id, item_name, sum(item_qty) as qa, sum(final_gross_amount) as da from  es_customer_direct_sale_detail where created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  group by item_id, item_name order by item_name, item_id
+SELECT recharge_amount , COUNT(recharge_amount) as c from es_payment WHERE recharge_amount IN (SELECT amount FROM es_bonus) and created_at>='2026-07-01 00:00:00' and created_at<='2026-07-01 23:59:59'  GROUP BY recharge_amount ORDER BY recharge_amount;
+SELECT CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END AS card_type, COUNT(*) AS payment_count, SUM(ep.recharge_amount) AS total_amount FROM es_payment AS ep INNER JOIN es_customer AS ec ON ec.guid = ep.guid AND ec.rfid = ep.rfid WHERE ec.is_vip = 1 and ep.created_at>='2026-07-01 00:00:00' and ep.created_at<='2026-07-01 23:59:59'  GROUP BY CASE WHEN ec.created_at = ep.created_at THEN 'NEW' ELSE 'OLD' END
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.created_at>='2026-07-01 00:00:01' and _ep.created_at<='2026-07-01 23:59:59'  and _ep.is_deleted <> 'yes' order by _ep.id desc
+1: 192.168.3.103:2390
+2: {39B29350}<96:1:148:43:38:214>
+Socket Read Method Receive:{39B29350}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782941381 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782941381 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@01851)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@01851)
+<!--{7DE8C61D}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{7DE8C61D}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{7DE8C61D}'
+select * from es_billing where rfid='{7DE8C61D}' and guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437'
+select * from es_softplay_customer_slots where rfid='{7DE8C61D}' and customer_id='1798'
+select * from es_sale where rfid='{7DE8C61D}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{7DE8C61D}' and guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' AND n_eslt.customer_rfid = '{7DE8C61D}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1798 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' ORDER BY ecp.end_date_time DESC;
+<!--{7DE8C61D}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{7DE8C61D}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{7DE8C61D}'
+select * from es_billing where rfid='{7DE8C61D}' and guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437'
+select * from es_softplay_customer_slots where rfid='{7DE8C61D}' and customer_id='1798'
+select * from es_sale where rfid='{7DE8C61D}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{7DE8C61D}' and guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' AND n_eslt.customer_rfid = '{7DE8C61D}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1798 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '9a8ef37c-8029-45dd-b0d7-5f7c0134564a-1777551437' ORDER BY ecp.end_date_time DESC;
+<!--{3D9CB375}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3D9CB375}'
+select id from es_customer where rfid='{3D9CB375}' and is_new=1
+select bonus_amount from es_bonus where amount=50 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@50!-->
+
+1: 192.168.3.100:2390
+2: {39B29350}<140:206:78:211:235:142>
+Socket Read Method Receive:{39B29350}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782941524 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782941524 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@01801)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@01801)
+<!--{3D9CB375}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3D9CB375}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3D9CB375}'
+select * from es_billing where rfid='{3D9CB375}' and guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523'
+select * from es_softplay_customer_slots where rfid='{3D9CB375}' and customer_id='2091'
+select * from es_sale where rfid='{3D9CB375}'
+select sum(collect_amount_from_customer) as ra from es_payment where rfid='{3D9CB375}' and guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' AND n_eslt.customer_rfid = '{3D9CB375}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2091 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.100:2390
+2: {3D9CB375}<140:206:78:211:235:142>
+Socket Read Method Receive:{3D9CB375}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{3D9CB375}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{3D9CB375}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2091' and rfid='{3D9CB375}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2091 and end_date_time > 1782941678 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2091 and end_date_time > 1782941678 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00000)
+1: 192.168.3.101:2390
+2: {3D9CB375}<44:58:232:9:178:152>
+Socket Read Method Receive:{3D9CB375}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{3D9CB375}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{3D9CB375}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2091' and rfid='{3D9CB375}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2091 and end_date_time > 1782941693 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2091 and end_date_time > 1782941693 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> <@00>
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> <@00>
+1: 192.168.3.101:2390
+2: {39B29350}<44:58:232:9:178:152>
+Socket Read Method Receive:{39B29350}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782941699 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782941699 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@01751)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@01751)
+1: 192.168.3.105:2390
+2: {39B29350}<188:221:194:159:80:247>
+Socket Read Method Receive:{39B29350}<188:221:194:159:80:247>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='188:221:194:159:80:247' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 11 or ess.device_out_id = 11 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782941920 and game_id = 6 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782941920 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='6' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='6' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01701)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01701)
+1: 192.168.3.105:2390
+2: {39B29350}<188:221:194:159:80:247>
+Socket Read Method Receive:{39B29350}<188:221:194:159:80:247>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='188:221:194:159:80:247' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 11 or ess.device_out_id = 11 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782941978 and game_id = 6 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782941978 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='6' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='6' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01651)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@01651)
+<!--{60D524F6}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{60D524F6}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{60D524F6}'
+select * from es_billing where rfid='{60D524F6}' and guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403'
+select * from es_softplay_customer_slots where rfid='{60D524F6}' and customer_id='2040'
+select * from es_sale where rfid='{60D524F6}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' AND n_eslt.customer_rfid = '{60D524F6}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2040 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '3b9010dc-53bf-47af-8cfa-f5bf3eff55b3-1782076403' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.101:2390
+2: {3D9CB375}<44:58:232:9:178:152>
+Socket Read Method Receive:{3D9CB375}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{3D9CB375}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{3D9CB375}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2091' and rfid='{3D9CB375}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2091 and end_date_time > 1782942036 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2091 and end_date_time > 1782942036 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> <@00>
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> <@00>
+1: 192.168.3.103:2390
+2: {60D524F6}<96:1:148:43:38:214>
+Socket Read Method Receive:{60D524F6}<96:1:148:43:38:214>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='96:1:148:43:38:214' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 6 or ess.device_out_id = 6 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='96:1:148:43:38:214'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782942067 and game_id = 5 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782942067 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='5' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='5' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00250)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00250)
+<!--{3D9CB375}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3D9CB375}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3D9CB375}'
+select * from es_billing where rfid='{3D9CB375}' and guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523'
+select * from es_softplay_customer_slots where rfid='{3D9CB375}' and customer_id='2091'
+select * from es_sale where rfid='{3D9CB375}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' AND n_eslt.customer_rfid = '{3D9CB375}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2091 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' ORDER BY ecp.end_date_time DESC;
+<!--{3D9CB375}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3D9CB375}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3D9CB375}'
+select * from es_billing where rfid='{3D9CB375}' and guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523'
+select * from es_softplay_customer_slots where rfid='{3D9CB375}' and customer_id='2091'
+select * from es_sale where rfid='{3D9CB375}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' AND n_eslt.customer_rfid = '{3D9CB375}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=2091 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '4115b68c-8a0a-4ead-9cb3-b21e0963a444-1782941523' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.100:2390
+2: {60D524F6}<140:206:78:211:235:142>
+Socket Read Method Receive:{60D524F6}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782942088 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782942088 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00200)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00200)
+1: 192.168.3.106:2390
+2: {39B29350}<60:97:5:224:252:60>
+Socket Read Method Receive:{39B29350}<60:97:5:224:252:60>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='60:97:5:224:252:60'
+select * from es_techcard where rfid='{39B29350}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='60:97:5:224:252:60' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 1 or ess.device_out_id = 1 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='60:97:5:224:252:60'
+select * from es_customer where is_new=1 and rfid='{39B29350}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='14' and rfid='{39B29350}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 14 and end_date_time > 1782942145 and game_id = 1 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 14 and end_date_time > 1782942145 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='1' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='1' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.106 -> (@01601)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.106 -> (@01601)
+<!--{3993E705}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3993E705}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3993E705}'
+select * from es_billing where rfid='{3993E705}' and guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766'
+select * from es_softplay_customer_slots where rfid='{3993E705}' and customer_id='1193'
+select * from es_sale where rfid='{3993E705}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' AND n_eslt.customer_rfid = '{3993E705}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1193 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' ORDER BY ecp.end_date_time DESC;
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3993E705}' and guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766'
+select * from es_customer where rfid='{3993E705}' and guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and is_new=1
+select bonus_amount from es_bonus where amount=50 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@50!-->
+
+<!--{3993E705}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{3993E705}'
+select ifnull(max(created_at_unix), 0) as uts from es_billing where rfid='{3993E705}'
+select * from es_billing where rfid='{3993E705}' and guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766'
+select * from es_softplay_customer_slots where rfid='{3993E705}' and customer_id='1193'
+select * from es_sale where rfid='{3993E705}'
+ SELECT  	eslt.*, esg.id as game_id, esg.name AS game_name, ec.name AS customer_name, ec.phone AS customer_phone  FROM  	es_softplay_live_trans AS  eslt INNER JOIN  	es_customer AS ec ON ec.rfid = eslt.customer_rfid AND ec.guid = eslt.customer_guid INNER JOIN  	es_softplay_games AS esg ON esg.id = eslt.softplay_game_id  WHERE  	eslt.is_reconciled = 1 AND  	eslt.punch_out_unix_timestamp > 0 and	 	eslt.id IN (SELECT MAX(n_eslt.id) FROM es_softplay_live_trans AS n_eslt WHERE n_eslt.customer_guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' AND n_eslt.customer_rfid = '{3993E705}' GROUP BY n_eslt.es_softplay_live_id, n_eslt.customer_guid, n_eslt.customer_rfid)  order by eslt.es_softplay_live_id DESC, eslt.id DESC
+select _eb.id as `Billing Id`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.log_device_ip `Device IP`, _eb.log_game `Game`, _eb.pre_amount as `Pre Amount`, _eb.amount as `Payed Amount`, _eb.post_amount as `Post Amount`, _eb.token_earn as `Ticket Earn`, _eb.created_at as `Date`, _eb.is_refund as `Is Refund` from es_billing as _eb where log_game<>'' and _eb.customer_id=1193 and _eb.is_deleted <> 'yes' order by _eb.id desc
+select _ep.id as `Payment ID`, _ep.rfid as `RFID`, GUID, _ep.name as `Name`, _ep.phone as `Phone`, _ep.payment_mode as `Payment Mode`, _ep.pre_amount as `Pre Amount`, _ep.recharge_amount as `Recharge Amount`, _ep.discount_amount_on_bill as `Discount Amount`, (_ep.recharge_amount - _ep.discount_amount_on_bill) as `Collect Amount`, ROUND( _ep.collect_amount_from_customer - _ep.gst_amount ,2 ) as `Taxable Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `CGST Amount`, ROUND(_ep.gst_amount / 2 ,  2) as `SGST Amount`, _ep.main_amount as `Main Amount`, _ep.bonus_amount as `Bonus Amount`, _ep.post_amount as `Post Amount`, _ep.user as `User`, _ep.created_at as `Date` from es_payment as _ep where _ep.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _ep.is_deleted <> 'yes' order by _ep.id desc
+select _eb.id as `Request Id`, (Case WHEN _eb.is_reedem = 1 THEN 'Redeem' Else 'Added' End) As `Is Reedem`, _eb.rfid as `RFID`, _eb.GUID, _eb.name as `Name`, _eb.phone as `Phone`, _eb.redeem_gift `Gift`, _eb.pre_ticket as `Pre Ticket`, _eb.ticket as `Amount`, _eb.post_ticket as `Post Ticket`, _eb.created_at as `Date`, _eb.updated_by as `User` from es_token_log as _eb where _eb.guid='6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' and _eb.is_deleted <> 'yes' order by _eb.id desc
+SELECT ecp.play_count_allowed_credit AS `Credit Allowed`, IFNULL(ecp.used_credit, 0) AS `Credit Used`, (ecp.play_count_allowed_credit - IFNULL(ecp.used_credit, 0)) AS `Credit Balance`, FROM_UNIXTIME(ecp.start_date_time - 19800) AS `Start Date`, FROM_UNIXTIME(ecp.end_date_time - 19800) AS `End Date`, ep.name AS `Package Name`, ep.price AS `Package Price` from es_customer AS ec INNER JOIN es_customer_package AS ecp ON ec.id= ecp.customer_id  INNER JOIN es_package AS ep ON ep.id = ecp.package_id where ec.guid = '6424b0d6-483a-47f6-86b8-574f5d9da7ad-1766076766' ORDER BY ecp.end_date_time DESC;
+1: 192.168.3.101:2390
+2: {3993E705}<44:58:232:9:178:152>
+Socket Read Method Receive:{3993E705}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{3993E705}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{3993E705}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1193' and rfid='{3993E705}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1193 and end_date_time > 1782942199 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1193 and end_date_time > 1782942199 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)
+1: 192.168.3.106:2390
+2: {60D524F6}<60:97:5:224:252:60>
+Socket Read Method Receive:{60D524F6}<60:97:5:224:252:60>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='60:97:5:224:252:60'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='60:97:5:224:252:60' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 1 or ess.device_out_id = 1 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='60:97:5:224:252:60'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782942372 and game_id = 1 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782942372 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='1' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='1' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.106 -> (@00150)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.106 -> (@00150)
+1: 192.168.3.105:2390
+2: {60D524F6}<188:221:194:159:80:247>
+Socket Read Method Receive:{60D524F6}<188:221:194:159:80:247>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='188:221:194:159:80:247' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 11 or ess.device_out_id = 11 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='188:221:194:159:80:247'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782942668 and game_id = 6 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782942668 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='6' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='6' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@00100)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.105 -> (@00100)
+1: 192.168.3.101:2390
+2: {60D524F6}<44:58:232:9:178:152>
+Socket Read Method Receive:{60D524F6}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782942989 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782942989 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+1: 192.168.3.101:2390
+2: {60D524F6}<44:58:232:9:178:152>
+Socket Read Method Receive:{60D524F6}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{60D524F6}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{60D524F6}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='2040' and rfid='{60D524F6}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 2040 and end_date_time > 1782943128 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 2040 and end_date_time > 1782943128 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Wednesday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Wednesday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00000)

@@ -1,0 +1,190 @@
+﻿select * from es_cloud_setting limit 1
+select * from es_billing_seting
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:202:231:251:186:170'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='0:224:53:42:72:96'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='72:210:36:153:118:36'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='248:32:151:30:8:130'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='220:98:148:77:148:194'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:198:100'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:225'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:105:241:149'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:137'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:24:27'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:236'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:114'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:24:6'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:20:80'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:123'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:143'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:165'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:202:244'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:235:197:221'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:222:23:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='92:53:72:185:170:191'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:144:45:201:112:120'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+99: *&Bike Yellow#
+select * from es_scheduler where day='Thursday' and game_id='12' and is_current='Y'
+SELECT * FROM es_setup WHERE game_id = '12' AND is_current='Y' ORDER BY id DESC LIMIT 1
+99: [@050]
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+99: *&Car#
+select * from es_scheduler where day='Thursday' and game_id='4' and is_current='Y'
+SELECT * FROM es_setup WHERE game_id = '4' AND is_current='Y' ORDER BY id DESC LIMIT 1
+99: [@050]
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='60:97:5:224:252:60'
+99: *&Basketball#
+select * from es_scheduler where day='Thursday' and game_id='1' and is_current='Y'
+SELECT * FROM es_setup WHERE game_id = '1' AND is_current='Y' ORDER BY id DESC LIMIT 1
+99: [@050]
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+99: *&Car Right#
+select * from es_scheduler where day='Thursday' and game_id='14' and is_current='Y'
+SELECT * FROM es_setup WHERE game_id = '14' AND is_current='Y' ORDER BY id DESC LIMIT 1
+99: [@050]
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='160:32:166:47:176:95'
+99: *&Car Left#
+select * from es_scheduler where day='Thursday' and game_id='13' and is_current='Y'
+SELECT * FROM es_setup WHERE game_id = '13' AND is_current='Y' ORDER BY id DESC LIMIT 1
+99: [@050]
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:22'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:251'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:0:0:252'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='1:0:94:127:255:250'
+select es.id as setup_id, es.game_id, ed.device_name,  ed.device_ip, es.device_type, eg.game_name, es.amount from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='255:255:255:255:255:255'
+select id, permission_game_report, permission_payment_report, permission_return_card from es_user where user_name='user1' and password='1102'
+select * from es_billing_seting
+__LOAD_billing_seting : DONE
+__LOAD_billing_seting vip : 0
+SELECT ModuleID FROM UserModules WHERE UserID = 3
+select * from es_daily_opening_balance where dt_ddmmyyyy='16/04/2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='16-04-2026'
+select * from es_daily_opening_balance where dt_ddmmyyyy='16-04-2026'
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--Port opened at 4/16/2026 8:32:04 PM-->
+
+<!--{7D155670}-->
+
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+select is_vip, is_free_time, guid, id, rfid, name, dob, email, phone, balance_main, balance_bonus, card_sno, created_at, total_token from es_customer where is_new=1 and rfid='{7D155670}'
+select id from es_customer where rfid='{7D155670}' and is_new=1
+select bonus_amount from es_bonus where amount=200 order by amount desc
+select amount, bonus_amount from es_bonus order by amount
+select id, name, time, price from es_package order by name, price
+select es.id, eg.game_name as name, es.amount as price from es_setup as es inner join es_game as eg on eg.id=es.game_id where es.is_current = 'Y'
+select ei.id, CONCAT('Token: ' , ei.token_count, ', Balance Qty: ', (ei.qty - get_used_item_qty(ei.id)) , ' , Item: ',  ei.name) AS n from es_item as ei WHERE ei.qty > 0 and ei.token_count > 0  order by ei.token_count, ei.name
+<!--+@200!-->
+
+1: 192.168.3.103:2390
+2: {7D155670}<244:207:162:223:126:190>
+Socket Read Method Receive:{7D155670}<244:207:162:223:126:190>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_techcard where rfid='{7D155670}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='244:207:162:223:126:190' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 8 or ess.device_out_id = 8 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_customer where is_new=1 and rfid='{7D155670}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1759' and rfid='{7D155670}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1759 and end_date_time > 1776371590 and game_id = 14 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1759 and end_date_time > 1776371590 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Thursday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='14' and is_current='Y'
+select * from es_scheduler where day='Thursday' and game_id='14' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00150)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00150)
+1: 192.168.3.100:2390
+2: {7D155670}<140:206:78:211:235:142>
+Socket Read Method Receive:{7D155670}<140:206:78:211:235:142>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_techcard where rfid='{7D155670}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='140:206:78:211:235:142' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 2 or ess.device_out_id = 2 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='140:206:78:211:235:142'
+select * from es_customer where is_new=1 and rfid='{7D155670}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1759' and rfid='{7D155670}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1759 and end_date_time > 1776371682 and game_id = 12 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1759 and end_date_time > 1776371682 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Thursday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='12' and is_current='Y'
+select * from es_scheduler where day='Thursday' and game_id='12' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00100)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.100 -> (@00100)
+1: 192.168.3.101:2390
+2: {7D155670}<44:58:232:9:178:152>
+Socket Read Method Receive:{7D155670}<44:58:232:9:178:152>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_techcard where rfid='{7D155670}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='44:58:232:9:178:152' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 5 or ess.device_out_id = 5 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='44:58:232:9:178:152'
+select * from es_customer where is_new=1 and rfid='{7D155670}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1759' and rfid='{7D155670}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1759 and end_date_time > 1776371709 and game_id = 4 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1759 and end_date_time > 1776371709 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Thursday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='4' and is_current='Y'
+select * from es_scheduler where day='Thursday' and game_id='4' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.101 -> (@00050)
+1: 192.168.3.103:2390
+2: {7D155670}<244:207:162:223:126:190>
+Socket Read Method Receive:{7D155670}<244:207:162:223:126:190>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_techcard where rfid='{7D155670}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='244:207:162:223:126:190' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 8 or ess.device_out_id = 8 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_customer where is_new=1 and rfid='{7D155670}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1759' and rfid='{7D155670}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1759 and end_date_time > 1776371847 and game_id = 14 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1759 and end_date_time > 1776371847 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Thursday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='14' and is_current='Y'
+select * from es_scheduler where day='Thursday' and game_id='14' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> (@00000)
+1: 192.168.3.103:2390
+2: {7D155670}<244:207:162:223:126:190>
+Socket Read Method Receive:{7D155670}<244:207:162:223:126:190>
+
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_techcard where rfid='{7D155670}' order by id desc limit 1
+select ed.id from es_device as ed where ed.device_mac ='244:207:162:223:126:190' limit 1
+select * from es_softplay_setting as ess where ess.device_in_id = 8 or ess.device_out_id = 8 limit 1
+select es.id as setup_id, es.game_id,  ed.device_ip, es.device_type, eg.game_name, es.amount, ed.is_allowed_bonus from es_setup as es inner join es_device as ed on ed.id=es.device_id left join es_game as eg on eg.id=es.game_id where es.device_type in ('Game','Balance') and es.is_current='Y' and ed.device_mac='244:207:162:223:126:190'
+select * from es_customer where is_new=1 and rfid='{7D155670}' order by id desc limit 1
+select ifnull(max(created_at_unix), 0) as uts from es_billing where customer_id='1759' and rfid='{7D155670}'
+select id, ifnull(used_credit, 0) as uc from es_customer_package where customer_id = 1759 and end_date_time > 1776371871 and game_id = 14 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select id, ifnull(used_credit, 0) as uc from es_customer_package where is_for_any_game='1' and customer_id = 1759 and end_date_time > 1776371871 and game_id = 0 and (ifnull(play_count_allowed_credit, 0) - ifnull(used_credit, 0)) > 0 
+select * from es_scheduler_happyhour where day='Thursday' and TIME(NOW()) BETWEEN time_from AND time_to and game_id='14' and is_current='Y'
+select * from es_scheduler where day='Thursday' and game_id='14' and is_current='Y'
+-------------------------------------
+__charge_amount : 50
+-------------------------------------
+Pre sendCommand Device IP as IPEndPoint :  192.168.3.103 -> <@00>
+Post sendCommand Device IP as IPEndPoint :  192.168.3.103 -> <@00>
