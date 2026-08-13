@@ -157,6 +157,7 @@ exit /b 0
 
 :ensure_mysql
 set "MYSQL_OK=0"
+set "MYSQL_REASON=service"
 for %%S in (MySQL80 MySQL MariaDB) do (
     if "!MYSQL_OK!"=="0" (
         call :start_mysql_service %%S
@@ -168,8 +169,17 @@ for %%S in (MySQL80 MySQL MariaDB) do (
 )
 
 if "!MYSQL_OK!"=="1" (
-    echo [OK] Database service !MYSQL_SERVICE! is available.
-    >>"%LOG%" echo Database service !MYSQL_SERVICE! is available
+    echo [SETUP] Checking MySQL port 3306...
+    powershell -NoProfile -Command "if ((Test-NetConnection -ComputerName 127.0.0.1 -Port 3306 -InformationLevel Quiet) -eq $true) { exit 0 } else { exit 1 }" >nul 2>&1
+    if errorlevel 1 (
+        set "MYSQL_REASON=port"
+        echo [ERROR] !MYSQL_SERVICE! is running, but MySQL is not reachable on port 3306.
+        echo Confirm that the "es" database exists and that MySQL accepts local connections.
+        >>"%LOG%" echo [ERROR] !MYSQL_SERVICE! is running, but port 3306 is not reachable
+        exit /b 1
+    )
+    echo [OK] Database service !MYSQL_SERVICE! is running on port 3306.
+    >>"%LOG%" echo Database service !MYSQL_SERVICE! is running on port 3306
     exit /b 0
 )
 
@@ -222,7 +232,12 @@ goto :done
 
 :missing_mysql
 echo.
-echo FunSquare UDP was not started because no MySQL/MariaDB service is available.
+if /i "!MYSQL_REASON!"=="port" (
+    echo FunSquare UDP was not started because MySQL is not reachable on port 3306.
+    echo Confirm that the "es" database exists and that MySQL accepts local connections.
+) else (
+    echo FunSquare UDP was not started because no MySQL/MariaDB service is available.
+)
 start "" "%MYSQL_URL%"
 echo.
 echo The official MySQL installer page has been opened automatically.
