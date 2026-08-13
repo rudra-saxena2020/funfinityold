@@ -223,10 +223,9 @@ goto :done
 :missing_mysql
 echo.
 echo FunSquare UDP was not started because no MySQL/MariaDB service is available.
-choice /C YN /N /M "Open the official MySQL installer page now? [Y/N] "
-if errorlevel 2 goto :done
 start "" "%MYSQL_URL%"
 echo.
+echo The official MySQL installer page has been opened automatically.
 echo Install and configure MySQL, then run this BAT again.
 echo Diagnostic log:
 echo   %LOG%
