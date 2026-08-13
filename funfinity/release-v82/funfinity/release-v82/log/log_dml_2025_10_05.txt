@@ -1,0 +1,1 @@
+﻿insert into es_daily_opening_balance (dt_ddmmyyyy, opening_balance, user, is_sync, center_code) values('05-10-2025','0','user1', 0, 'CENTER_1')

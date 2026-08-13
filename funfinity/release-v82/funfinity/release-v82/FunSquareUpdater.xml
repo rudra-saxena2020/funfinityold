@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FunSquareUpdater
+</name>
+</assembly>
+<members>
+<member name="T:FunSquareUpdater.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.iconupdate128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.iconupdate256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.iconupdate32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.iconupdate512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.iconupdate64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.update128">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.update256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.update32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.update512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:FunSquareUpdater.My.Resources.Resources.update64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.SynchronizeSchemas">
+ <summary>
+ Main synchronization method
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.FindMissingTables">
+ <summary>
+ Find tables that exist in latest but not in old database
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.FindIndexChanges">
+ <summary>
+ NEW: Find missing or different indexes
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.CompareTableIndexes(FunSquareUpdater.TableInfo,FunSquareUpdater.TableInfo)">
+ <summary>
+ NEW: Compare indexes between latest and old table
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.FindColumnChanges">
+ <summary>
+ Find column differences (missing or wrong position)
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.CompareTableColumns(FunSquareUpdater.TableInfo,FunSquareUpdater.TableInfo)">
+ <summary>
+ Compare columns between latest and old table
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateCreateTableScripts(System.Collections.Generic.List{System.String})">
+ <summary>
+ Generate CREATE TABLE scripts for missing tables
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateAlterTableScripts(System.Collections.Generic.Dictionary{System.String,FunSquareUpdater.ColumnChangeInfo})">
+ <summary>
+ Generate ALTER TABLE scripts for column changes
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateIndexScripts(System.Collections.Generic.Dictionary{System.String,FunSquareUpdater.IndexChangeInfo})">
+ <summary>
+ NEW: Generate ALTER TABLE scripts for missing indexes
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateIndexColumnList(System.String,System.Collections.Generic.List{FunSquareUpdater.IndexInfo})">
+ <summary>
+ Generate column list for index with proper handling of TEXT/BLOB columns
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GetOptimalPrefixLength(System.String)">
+ <summary>
+ Get optimal prefix length for TEXT/BLOB columns in indexes
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateColumnReorganizationScript(FunSquareUpdater.TableInfo,FunSquareUpdater.ColumnChangeInfo)">
+ <summary>
+ Generate ALTER TABLE script to add missing columns and reorder existing ones
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateAddColumnStatement(FunSquareUpdater.ColumnInfo,System.String)">
+ <summary>
+ Generate ADD COLUMN statement
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.GenerateModifyColumnStatement(FunSquareUpdater.ColumnInfo,System.String)">
+ <summary>
+ Generate MODIFY COLUMN statement (for repositioning)
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.AddCenterCodeColumn(System.String,System.String)">
+ <summary>
+ Add center_code column to table creation script (for bounce_club compatibility)
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.DatabaseSchemaSynchronizer.ExecuteSyncScripts(System.Collections.Generic.List{System.String})">
+ <summary>
+ Execute synchronization scripts
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.IsInternetAvailable">
+ <summary>
+ Checks for internet connectivity
+ </summary>
+ <returns>True if internet is available</returns>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.CheckForUpdate">
+ <summary>
+ Checks if an update is available
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.DownloadAndApplyUpdate">
+ <summary>
+ Downloads and applies the update
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.CreateUpdateBatchFile">
+ <summary>
+ Creates a batch file to handle the update process after the app closes
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.VersionToNumber(System.String)">
+ <summary>
+ Converts version string to a comparable number
+ </summary>
+</member>
+<member name="M:FunSquareUpdater.AutoUpdater.StartInternetMonitoring(System.Int32)">
+ <summary>
+ Starts periodic internet status checks
+ </summary>
+</member>
+</members>
+</doc>

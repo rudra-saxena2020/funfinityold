@@ -1,0 +1,89 @@
+﻿Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2569784 bytes (2510 KiB)
+
+Creating archive: D:\release-v82\backup\1766055400.7z
+
+Add new data to archive: 1 file, 2569784 bytes (2510 KiB)
+
+
+Files read from disk: 1
+Archive size: 227634 bytes (223 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1766055400.7z
+Backup successful!
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2572017 bytes (2512 KiB)
+
+Creating archive: D:\release-v82\backup\1766066839.7z
+
+Add new data to archive: 1 file, 2572017 bytes (2512 KiB)
+
+
+Files read from disk: 1
+Archive size: 227778 bytes (223 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1766066839.7z
+Backup successful!
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2572017 bytes (2512 KiB)
+
+Creating archive: D:\release-v82\backup\1766066959.7z
+
+Add new data to archive: 1 file, 2572017 bytes (2512 KiB)
+
+
+Files read from disk: 1
+Archive size: 227778 bytes (223 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1766066959.7z
+Backup successful!
+Closing...
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2572126 bytes (2512 KiB)
+
+Creating archive: D:\release-v82\backup\1766068739.7z
+
+Add new data to archive: 1 file, 2572126 bytes (2512 KiB)
+
+
+Files read from disk: 1
+Archive size: 227810 bytes (223 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1766068739.7z
+Backup successful!

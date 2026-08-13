@@ -1,0 +1,46 @@
+﻿Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2107020 bytes (2058 KiB)
+
+Creating archive: D:\release-v82\backup\1763549827.7z
+
+Add new data to archive: 1 file, 2107020 bytes (2058 KiB)
+
+
+Files read from disk: 1
+Archive size: 183154 bytes (179 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1763549827.7z
+Backup successful!
+Closing...
+Welcome to FunSquareBackup!
+FunSquareBackup App is already set to run at startup.
+IsTaskScheduled available
+Backup process is started.
+7z archive created successfully!
+
+7-Zip 24.05 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-05-14
+
+Scanning the drive:
+1 file, 2118193 bytes (2069 KiB)
+
+Creating archive: D:\release-v82\backup\1763579150.7z
+
+Add new data to archive: 1 file, 2118193 bytes (2069 KiB)
+
+
+Files read from disk: 1
+Archive size: 184402 bytes (181 KiB)
+Everything is Ok
+
+7z archive saved as: D:\release-v82\backup\1763579150.7z
+Backup successful!
+Closing...

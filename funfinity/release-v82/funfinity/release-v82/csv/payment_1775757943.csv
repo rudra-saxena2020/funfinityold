@@ -1,0 +1,3 @@
+Payment ID,RFID,GUID,Name,Phone,Payment Mode,Pre Amount,Recharge Amount,Discount Amount,Collect Amount,Taxable Amount,CGST Amount,SGST Amount,Main Amount,Bonus Amount,Post Amount,User,Date
+2643,{39106100},b9553162-3d8c-4763-8f89-b7254c36c9e8-1766676054,Santosh,7895733145,CASH,0,50,0,50,42.37,3.82,3.82,50,0,50,user1,3/1/2026 8:08:08 PM
+,TOTAL,,,,,,50,0,50,42.37,3.82,3.82,50,0,,,

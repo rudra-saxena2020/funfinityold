@@ -1,0 +1,2 @@
+﻿insert into es_daily_opening_balance(dt_ddmmyyyy,opening_balance,user, is_sync, cloud_id, origin_local_id, center_key, updated_at_unixtime, updated_at_dt, updated_by) values('23-01-2026','0','su', '0', null, null, '', '1769187301', '2026-01-23 16:55:00', 'su')
+UPDATE es_daily_opening_balance SET origin_local_id = 111 WHERE id = 111;
