@@ -61,3 +61,87 @@ Total devices found: 2
 Scan complete!
 
 Closing...
+FunSquareNetworkDiscovery App is already set to run at startup.
+Task registered in Windows Scheduler as 'FunSquareNetworkDiscovery' at 10:00
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 10.129.26.43
+
+Scanning subnet: 10.129.26.1 - 10.129.26.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------
+10.129.26.43    2C-DB-07-49-0B-C9    Rudra-PC                       Online
+10.129.26.71    06-11-1A-E3-45-AE    N/A                            Online
+FunSquareNetworkDiscovery App is already set to run at startup.
+Task registered in Windows Scheduler as 'FunSquareNetworkDiscovery' at 10:00
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 10.129.26.43
+
+Scanning subnet: 10.129.26.1 - 10.129.26.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------
+10.129.26.43    2C-DB-07-49-0B-C9    Rudra-PC                       Online
+10.129.26.71    06-11-1A-E3-45-AE    N/A                            Online
+--------------------------------------------------------------------------------
+Total devices found: 2
+
+Scan complete!
+
+Closing...
+FunSquareNetworkDiscovery App is already set to run at startup.
+Task registered in Windows Scheduler as 'FunSquareNetworkDiscovery' at 10:00
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 10.129.26.43
+
+Scanning subnet: 10.129.26.1 - 10.129.26.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Total devices found: 2
+
+Scan complete!
+
+Closing...
+10.129.26.43    2C-DB-07-49-0B-C9    Rudra-PC                       Online
+10.129.26.71    06-11-1A-E3-45-AE    N/A                            Online
+FunSquareNetworkDiscovery App is already set to run at startup.
+Task registered in Windows Scheduler as 'FunSquareNetworkDiscovery' at 10:00
+==============================================
+     Network Device Scanner - MAC Address
+==============================================
+
+Local IP Address: 10.129.26.43
+
+Scanning subnet: 10.129.26.1 - 10.129.26.254
+Please wait...
+
+IP Address      MAC Address          Hostname                       Status
+--------------------------------------------------------------------------------
+10.129.26.43    2C-DB-07-49-0B-C9    Rudra-PC                       Online
+10.129.26.71    06-11-1A-E3-45-AE    N/A                            Online
+--------------------------------------------------------------------------------
+Total devices found: 2
+
+Scan complete!
+
+Closing...
+--------------------------------------------------------------------------------
+Total devices found: 2
+
+Scan complete!
+
+Closing...
