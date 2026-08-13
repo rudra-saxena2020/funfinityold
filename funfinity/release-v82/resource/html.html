@@ -1,22 +1,43 @@
-<html>
-<head><style>body{font-size:18px;}</style></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card receipt</title>
+  <style>
+    :root { --ink: #172033; --muted: #697386; --line: #e4e9f1; --accent: #5b5ce2; --paper: #fff; --page: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 20px; background: var(--page); color: var(--ink); font: 15px/1.45 Inter, system-ui, sans-serif; }
+    .receipt { width: min(100%, 390px); margin: 0 auto; padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); box-shadow: 0 12px 28px rgba(32, 44, 74, .09); }
+    .brand { display: flex; align-items: center; gap: 11px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+    .brand img { width: 44px; height: 44px; object-fit: contain; border-radius: 12px; }
+    .brand-name { font-size: 17px; font-weight: 800; letter-spacing: -.02em; }
+    .brand-subtitle { color: var(--muted); font-size: 12px; }
+    .receipt-title { margin: 20px 0 4px; font-size: 20px; letter-spacing: -.03em; }
+    .receipt-caption { margin: 0 0 15px; color: var(--muted); font-size: 12px; }
+    dl { margin: 0; }
+    .detail { display: flex; justify-content: space-between; gap: 16px; padding: 13px 0; border-bottom: 1px solid var(--line); }
+    .detail:last-child { border-bottom: 0; }
+    dt { color: var(--muted); font-size: 12px; font-weight: 700; }
+    dd { margin: 0; text-align: right; font-weight: 800; }
+    .receipt-note { margin: 18px 0 0; padding: 11px 12px; border-radius: 10px; background: #eeefff; color: var(--accent); font-size: 12px; text-align: center; }
+    @media print { body { padding: 0; background: #fff; } .receipt { width: 100%; border: 0; box-shadow: none; } }
+  </style>
+</head>
 <body>
-	<div style="text-align:center">
-		<img src="logo.jpg" width="50">
-	</div><br>
-	<table width="100%" cellpadding="2" cellspacing="5">
-		<tr>
-			<td width="30%" style="font-weight:bold; text-align:right">Card No :</td>
-			<td width="70%" style="text-align:left" >1111</td>
-		</tr>
-		<tr>
-			<td style="font-weight:bold; text-align:right">In Time :
-			<td style="text-align:left" >20:20:20:20:20:20</td>
-		</tr>
-		<tr>
-			<td style="font-weight:bold; text-align:right">Phone :</td>
-			<td style="text-align:left" >******6633</td>
-		</tr>
-	</table>
+  <article class="receipt" aria-label="Card receipt">
+    <div class="brand">
+      <img src="logo.jpg" width="44" height="44" alt="Funfinity logo">
+      <div><div class="brand-name">Funfinity</div><div class="brand-subtitle">Play card receipt</div></div>
+    </div>
+    <h1 class="receipt-title">Card check-in</h1>
+    <p class="receipt-caption">Please keep this receipt for your records.</p>
+    <dl>
+      <div class="detail"><dt>Card number</dt><dd>1111</dd></div>
+      <div class="detail"><dt>In time</dt><dd>20:20:20:20:20:20</dd></div>
+      <div class="detail"><dt>Phone</dt><dd>******6633</dd></div>
+    </dl>
+    <p class="receipt-note">Thank you for playing with us!</p>
+  </article>
 </body>
 </html>
