@@ -26,3 +26,11 @@ select * from es_cloud_setting limit 1
 Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
 select * from es_billing_seting
 Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
+select * from es_cloud_setting limit 1
+Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
+select * from es_billing_seting
+Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
+select * from es_cloud_setting limit 1
+Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
+select * from es_billing_seting
+Authentication to host 'localhost' for user 'es' using method 'sha256_password' failed with message: Access denied for user 'es'@'localhost' (using password: YES)
