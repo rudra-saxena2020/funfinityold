@@ -1,0 +1,9 @@
+{
+  "name": "funfinity-operations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable Funfinity operations dashboard",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
