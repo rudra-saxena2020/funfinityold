@@ -133,6 +133,13 @@ echo FunSquare UDP was not started because .NET Framework 4.8 is required.
 echo Install it, restart Windows if requested, and run this BAT file again.
 echo Diagnostic log:
 echo   %LOG%
+echo.
+choice /C YN /N /M "Open the official .NET Framework 4.8 download page now? [Y/N] "
+if errorlevel 2 goto :done
+start "" "https://dotnet.microsoft.com/download/dotnet-framework/net48"
+echo.
+echo The official Microsoft download page has been opened in your browser.
+echo Install .NET Framework 4.8, then run this launcher again.
 
 :done
 echo.
